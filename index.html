@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Corpvision</title>
+    <!-- BS4 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;600;700&display=swap" rel="stylesheet" />
+    <!-- ANIMATE -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- SLICK SLIDER -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <!-- LIGHTBOX2 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" integrity="sha512-ZKX+BvQihRJPA8CROKBhDNvoc2aDMOdAlcm7TUQY+35XYtrd3yh95QOOhsPDQY9QnKE0Wqag9y38OIgEvb88cA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- OWL CAROUSEL -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="./assets/css/index.css" />
+  </head>
+  <body id="cvBody">
+    <header id="cvHeader">
+      <div class="container cvHeader__content">
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" href="./index.html">
+            <i class="fa fa-align-right text-success"></i>Corp Vision
+            <span>Vision to your Future</span>
+          </a>
+          <button id="navbar-toggler" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+              <i class="fa fa-bars"></i>
+              <i class="fa fa-times"></i>
+            </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto pt-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" href="./index.html">HOME <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">SERVICES</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  PAGES
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">BLOG POSTS</a>
+                  <a class="dropdown-item" href="#">404 PAGE</a>
+                  <a class="dropdown-item" href="#">LANDING PAGE</a>
+                  <a class="dropdown-item" href="#">ELEMENTS PAGE</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+          <div class="cvBtnGroup">
+            <button id="cvSearch" class="btn cvSearch">
+              <i class="fa fa-search"></i>
+            </button>
+            <div id="cvSwitch" class="cvSwitch">
+              <i class="far fa-sun"></i>
+              <i class="far fa-moon"></i>
+            </div>
+          </div>
+          <i id="cvbtnCloseSearch" class="fa fa-times cvbtnCloseSearch"></i>
+          <input type="text" id="cvInputSearch" class="form-control cvInputSearch" placeholder="Start Typing">
+        </nav>
+      </div>
+    </header>
+    <section class="cvCarousel">
+      <div class="cvCarousel__inner">
+        <div class="cvCarousel__item">
+          <div class="container cvCarousel__content text-white">
+            <h1 data-animation="flipInX" data-delay="0.8s">We will solve your issues our vision to your future</h1>
+            <p data-animation="fadeInDown">Lorem ipsum dolor sit amet, elit, sed do eiusmod ut labore et dolore
+                magna aliqua. Ut enim ad minim veniam, quis nisi ut ea.</p>
+            <button class="btn btn-success" data-animation="fadeInUp" data-delay="1s">Learn More</button>
+          </div>
+          <div class="cvCarousel__overlay"></div>
+        </div>
+        <div class="cvCarousel__item">
+          <div class="container cvCarousel__content text-white">
+            <h1 data-animation="fadeInDown" data-delay="0.8s">Embracing success do our best, need best advice</h1>
+            <p data-animation="fadeInDown">Lorem ipsum dolor sit amet, elit, sed do eiusmod ut labore et dolore
+                magna aliqua. Ut enim ad minim veniam, quis nisi ut ea.</p>
+            <button class="btn btn-success" data-animation="fadeInDown" data-delay="1s">Get Started</button>
+          </div>
+          <div class="cvCarousel__overlay"></div>
+        </div>
+        <div class="cvCarousel__item">
+          <div class="container cvCarousel__content text-white">
+            <h1 data-animation="fadeInUp" data-delay="0.8s">Digital transformation driven by technology</h1>
+            <p data-animation="fadeInUp">Lorem ipsum dolor sit amet, elit, sed do eiusmod ut labore et dolore
+                magna aliqua. Ut enim ad minim veniam, quis nisi ut ea.</p>
+            <button class="btn btn-success" data-animation="fadeInDown" data-delay="1s">Learn More</button>
+          </div>
+          <div class="cvCarousel__overlay"></div>
+        </div>
+        <div class="cvCarousel__item">
+          <div class="container cvCarousel__content text-white">
+            <h1 data-animation="flipInX" data-delay="0.8s">For those who believe in leaving a mark</h1>
+            <p data-animation="fadeInDown">Lorem ipsum dolor sit amet, elit, sed do eiusmod ut labore et dolore
+                magna aliqua. Ut enim ad minim veniam, quis nisi ut ea.</p>
+            <button class="btn btn-success" data-animation="fadeInUp" data-delay="1s">Contact Now</button>
+          </div>
+          <div class="cvCarousel__overlay"></div>
+        </div>
+      </div>
+      <div class="shape">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 280">
+          <path fill-opacity="1">
+            <animate attributeName="d" dur="20000ms" repeatCount="indefinite" values="M0,160L48,181.3C96,203,192,245,288,261.3C384,277,480,267,576,234.7C672,203,768,149,864,117.3C960,85,1056,75,1152,90.7C1248,107,1344,149,1392,170.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z; M0,160L48,181.3C96,203,192,245,288,234.7C384,224,480,160,576,133.3C672,107,768,117,864,138.7C960,160,1056,192,1152,197.3C1248,203,1344,181,1392,170.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;												 M0,64L48,74.7C96,85,192,107,288,133.3C384,160,480,192,576,170.7C672,149,768,75,864,80C960,85,1056,171,1152,181.3C1248,192,1344,128,1392,96L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;
+              M0,160L48,181.3C96,203,192,245,288,261.3C384,277,480,267,576,234.7C672,203,768,149,864,117.3C960,85,1056,75,1152,90.7C1248,107,1344,149,1392,170.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;"></animate>
+          </path>
+        </svg>
+      </div>
+    </section>
+    <section class="cvAbout" id="cvAbout">
+      <div class="cvAbout__padding py-5">
+        <div class="cvAbout__container container py-lg-5 py-md-3">
+          <div class="row align-items-center">
+            <div class="cvAbout__content col-lg-6">
+              <span class="small-title">About Us</span>
+              <h3 class="big-title">We make the best strategies for you, Enhancing your success</h3>
+              <p class="mt-md-4 mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ullamco laboris nisi ut ex ea.</p>
+              <ul class="cvAbout__list pt-lg-2 mt-4 mb-0">
+                <li class="cvAbout__link">
+                  <a href="#url">
+                    <i class="fas fa-check-circle"></i> UI/UX Design and Development
+                  </a>
+                </li>
+                <li class="cvAbout__link">
+                  <a href="#url">
+                    <i class="fas fa-check-circle"></i> Branding Design and Identity
+                  </a>
+                </li>
+                <li class="cvAbout__link">
+                  <a href="#url">
+                    <i class="fas fa-check-circle"></i> Mobile App Design and Development
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="cvAbout__image col-lg-6 mt-lg-0 mt-md-5 mt-4">
+              <div class="row">
+                <div class="col-6">
+                  <img src="./assets/images/about1.jpg" alt="About image 1" class="img-fluid">
+                </div>
+                <div class="col-6 mt-4">
+                  <img src="./assets/images/about2.jpg" alt="About image 2" class="img-fluid mb-md-3 mb-2">
+                  <img src="./assets/images/about3.jpg" alt="About image 3" class="img-fluid mt-md-3">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="cvWork py-5">
+      <div class="cvWork__container container py-lg-5 py-md-4 py-2">
+        <div class="row align-items-center">
+          <div class="cvWork__start col-lg-6 pr-lg-5">
+            <h5 class="small-title">Every day brings new challenges</h5>
+            <h3 class="big-title mb-4">Creative agency focused on vision, product and people</h3>
+            <p class="cvWork__para">Aurabitur id gravida risus. Fusce eget ex fermentum, ultricies nisi ac sed,
+              lacinia est. Quisque ut lectus consequat, venenatis eros et, sed commodo risus. Nullam sit
+              amet laoreet elit. Suspendisse non init magnaa velit efficitur, dolor eget ex fermentum.</p>
+            <a href="#cvAbout" class="cvWork__cta btn mt-lg-5 mt-4">Discover More</a>
+          </div>
+          <div class="cvWork__end col-lg-6 mt-lg-0 mt-md-5 mt-4 justify-content-center">
+            <div class="cvWork__endContent">
+              <div class="cvWork__endItem">
+                <div class="cvWork__endIcon">
+                  <img src="./assets/images/our-process.png" alt="Work image 1">
+                </div>
+                <h4>
+                  <a href="#url" class="cvWork__endTitle">Our Process</a>
+                </h4>
+              </div>
+              <div class="cvWork__endItem">
+                <div class="cvWork__endIcon">
+                  <img src="./assets/images/how-we-help.png" alt="Work image 2">
+                </div>
+                <h4>
+                  <a href="#url" class="cvWork__endTitle">How We Help</a>
+                </h4>
+              </div>
+              <div class="cvWork__endItem">
+                <div class="cvWork__endIcon">
+                  <img src="./assets/images/UI-design.png" alt="Work image 2">
+                </div>
+                <h4>
+                  <a href="#url" class="cvWork__endTitle">UI/UX Design</a>
+                </h4>
+              </div>
+              <div class="cvWork__endItem">
+                <div class="cvWork__endIcon">
+                  <img src="./assets/images/creative-ideas.png" alt="Work image 2">
+                </div>
+                <h4>
+                  <a href="#url" class="cvWork__endTitle">Creative Ideas</a>
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="cvServices py-5">
+      <div class="cvServices__container container py-lg-5 py-md-4 py-2">
+        <h3 class="big-title text-center">Always there for your care, our Services</h3>
+        <div class="cvServices__content row mt-lg-5 mt-4 text-center justify-content-center">
+          <div class="cvServices__item col-lg-4 col-md-6">
+            <a href="#url" class="d-block">
+              <img src="./assets/images/service1.jpg" alt="Service image 1" class="img-fluid cvServices__image">
+            </a>
+            <div class="cvServices__info">
+              <a href="#url" class="cvServices__title">Work Expertise</a>
+              <p class="cvServices__description">Venenatis eros et, sed commodo risus. Nullam sit amet laoreet elit..</p>
+            </div>
+            <a href="#url" class="cvServices__btn btn mt-3">Learn More</a>
+          </div>
+          <div class="cvServices__item col-lg-4 col-md-6 mt-md-0 mt-5">
+            <a href="#url" class="d-block">
+              <img src="./assets/images/service2.jpg" alt="Service image 2" class="img-fluid cvServices__image">
+            </a>
+            <div class="cvServices__info">
+              <a href="#url" class="cvServices__title">Product Development</a>
+              <p class="cvServices__description">Venenatis eros et, sed commodo risus. Nullam sit amet laoreet elit..</p>
+            </div>
+            <a href="#url" class="cvServices__btn btn mt-3">Learn More</a>
+          </div>
+          <div class="cvServices__item col-lg-4 col-md-6 mt-lg-0 mt-5">
+            <a href="#url" class="d-block">
+              <img src="./assets/images/service3.jpg" alt="Service image 3" class="img-fluid cvServices__image">
+            </a>
+            <div class="cvServices__info">
+              <a href="#url" class="cvServices__title">Software Development</a>
+              <p class="cvServices__description">Venenatis eros et, sed commodo risus. Nullam sit amet laoreet elit..</p>
+            </div>
+            <a href="#url" class="cvServices__btn btn mt-3">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="cvGallery py-5">
+      <div class="cvGallery__container container">
+        <div class="cvGallery__title text-center mb-5">
+          <h5 class="small-title">Our Gallery</h5>
+          <h3 class="big-title mx-lg-5">Successful projects we've done</h3>
+        </div>
+        <div class="cvGallery__content row">
+          <div class="col-lg-4 col-md-6 cvGallery__item">
+            <a href="./assets/images/gallery1.jpg" data-lightbox="example-set" data-title="Project 1" class="cvGallery__scale d-block">
+              <img class="cvGallery__image d-block img-fluid" src="./assets/images/gallery1.jpg" alt="Gallery image 1">
+              <span class="cvGallery__overlay"></span>
+              <span class="cvGallery__overlayContent">
+                  <span class="cvGallery__overlayTitle">Project 1</span>
+                  <span class="cvGallery__overlayText">Quisque ut lectus, eros et, sed commodo risus.</span>
+              </span>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6 cvGallery__item mt-md-0 mt-4">
+            <a href="./assets/images/gallery2.jpg" data-lightbox="example-set" data-title="Project 2" class="cvGallery__scale d-block">
+              <img class="cvGallery__image d-block img-fluid" src="./assets/images/gallery2.jpg" alt="Gallery image 2">
+              <span class="cvGallery__overlay"></span>
+              <span class="cvGallery__overlayContent">
+                  <span class="cvGallery__overlayTitle">Project 2</span>
+                  <span class="cvGallery__overlayText">Quisque ut lectus, eros et, sed commodo risus.</span>
+              </span>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6 cvGallery__item mt-lg-0 mt-4">
+            <a href="./assets/images/gallery3.jpg" data-lightbox="example-set" data-title="Project 3" class="cvGallery__scale d-block">
+              <img class="cvGallery__image d-block img-fluid" src="./assets/images/gallery3.jpg" alt="Gallery image 3">
+              <span class="cvGallery__overlay"></span>
+              <span class="cvGallery__overlayContent">
+                  <span class="cvGallery__overlayTitle">Project 3</span>
+                  <span class="cvGallery__overlayText">Quisque ut lectus, eros et, sed commodo risus.</span>
+              </span>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6 cvGallery__item mt-4 pt-lg-2">
+            <a href="./assets/images/gallery4.jpg" data-lightbox="example-set" data-title="Project 4" class="cvGallery__scale d-block">
+              <img class="cvGallery__image d-block img-fluid" src="./assets/images/gallery4.jpg" alt="Gallery image 4">
+              <span class="cvGallery__overlay"></span>
+              <span class="cvGallery__overlayContent">
+                  <span class="cvGallery__overlayTitle">Project 4</span>
+                  <span class="cvGallery__overlayText">Quisque ut lectus, eros et, sed commodo risus.</span>
+              </span>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6 cvGallery__item mt-4 pt-lg-2">
+            <a href="./assets/images/gallery5.jpg" data-lightbox="example-set" data-title="Project 5" class="cvGallery__scale d-block">
+              <img class="cvGallery__image d-block img-fluid" src="./assets/images/gallery5.jpg" alt="Gallery image 5">
+              <span class="cvGallery__overlay"></span>
+              <span class="cvGallery__overlayContent">
+                  <span class="cvGallery__overlayTitle">Project 5</span>
+                  <span class="cvGallery__overlayText">Quisque ut lectus, eros et, sed commodo risus.</span>
+              </span>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6 cvGallery__item mt-4 pt-lg-2">
+            <a href="./assets/images/gallery6.jpg" data-lightbox="example-set" data-title="Project 6" class="cvGallery__scale d-block">
+              <img class="cvGallery__image d-block img-fluid" src="./assets/images/gallery6.jpg" alt="Gallery image 6">
+              <span class="cvGallery__overlay"></span>
+              <span class="cvGallery__overlayContent">
+                  <span class="cvGallery__overlayTitle">Project 6</span>
+                  <span class="cvGallery__overlayText">Quisque ut lectus, eros et, sed commodo risus.</span>
+              </span>
+            </a>
+          </div>
+        </div>
+        <div class="cvGallery__brand row pt-5 mt-5 justify-content-center">
+          <div class="col-lg-2 col-md-3 col-4">
+            <img src="./assets/images/brand1.png" alt="Brand image 1" class="cvGallery__image img-fluid">
+          </div>
+          <div class="col-lg-2 col-md-3 col-4">
+            <img src="./assets/images/brand6.png" alt="Brand image 2" class="cvGallery__image img-fluid">
+          </div>
+          <div class="col-lg-2 col-md-3 col-4">
+            <img src="./assets/images/brand3.png" alt="Brand image 3" class="cvGallery__image img-fluid">
+          </div>
+          <div class="col-lg-2 col-md-3 col-4 mt-md-0 mt-4">
+            <img src="./assets/images/brand4.png" alt="Brand image 4" class="cvGallery__image img-fluid">
+          </div>
+          <div class="col-lg-2 col-md-3 col-4 mt-md-0 mt-4">
+            <img src="./assets/images/brand5.png" alt="Brand image 5" class="cvGallery__image img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="cvProgress">
+      <div class="cvProgress__padding py-5">
+        <div class="cvProgress__container container py-lg-5 py-md-4 py-2">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <img src="./assets/images/progress.jpg" alt="Progress image" class="cvProgress__image img-fluid">
+            </div>
+            <div class="col-lg-6 mt-lg-0 mt-md-5 mt-4">
+              <span class="small-title">Your success is our success</span>
+              <h3 class="big-title mb-4 pb-lg-2">Web design, marketing & SEO solutions that get results</h3>
+              <div class="cvProgress__item progress__1">
+                <h6 class="cvProgress__tittle">Marketing <span class="">80%</span></h6>
+                <div class="cvProgress__barWrap progress">
+                  <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="cvProgress__item progress__2">
+                <h6 class="cvProgress__tittle"> Responsive Web design <span class="">95%</span></h6>
+                <div class="cvProgress__barWrap progress">
+                  <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="cvProgress__item progress__3">
+                <h6 class="cvProgress__tittle"> Analytics <span class="">60%</span></h6>
+                <div class="cvProgress__barWrap progress">
+                  <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="cvProgress__item progress__4 mb-0">
+                <h6 class="cvProgress__tittle"> Web Development <span class="">85%</span></h6>
+                <div class="cvProgress__barWrap progress">
+                  <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="cvReviews">
+      <div class="cvReviews__padding py-5">
+        <div class="cvReviews__container container text-center py-lg-4 py-md-3 py-2 pb-lg-0">
+          <h5 class="small-title mb-1">Happy Clients Feedback</h5>
+          <h3 class="big-title mb-sm-5 mb-4">Reviews and Testimonials</h3>
+          <div id="cvReviews__carousel" class="cvReviews__carousel owl-two owl-carousel owl-theme owl-loaded owl-drag">
+            <div class="cvReviews__item">
+              <p class="cvReviews__text">Lorem ipsum dolor sit amet elit. Velit beatae laudantium voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+                Dolores molestias adipisci dolo amet!. Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Esse architecto est ea sunt eligendi cum?
+              </p>
+              <div class="cvReviews__content">
+                <div class="cvReviews__icon">
+                  <img src="./assets/images/reviews1.jpg" alt="Review image 1" class="img-fluid">
+                </div>
+                <div class="cvReviews__info">
+                  <h3 class="cvReviews__name">John wilson</h3>
+                  <p class="cvReviews__position">Student</p>
+                </div>
+              </div>
+            </div>
+            <div class="cvReviews__item">
+              <p class="cvReviews__text">Lorem ipsum dolor sit amet elit. Velit beatae laudantium
+                voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+                Dolores molestias adipisci dolo amet!.
+              </p>
+              <div class="cvReviews__content">
+                <div class="cvReviews__icon">
+                  <img src="./assets/images/reviews2.jpg" alt="Review image 2" class="img-fluid">
+                </div>
+                <div class="cvReviews__info">
+                  <h3 class="cvReviews__name">Julia sakura</h3>
+                  <p class="cvReviews__position">Student</p>
+                </div>
+              </div>
+            </div>
+            <div class="cvReviews__item">
+              <p class="cvReviews__text">Lorem ipsum dolor sit amet elit. Velit beatae laudantium
+                voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+                Dolores molestias adipisci dolo amet!.
+              </p>
+              <div class="cvReviews__content">
+                <div class="cvReviews__icon">
+                  <img src="./assets/images/reviews3.jpg" alt="Review image 3" class="img-fluid">
+                </div>
+                <div class="cvReviews__info">
+                  <h3 class="cvReviews__name">Roy Linderson</h3>
+                  <p class="cvReviews__position">Student</p>
+                </div>
+              </div>
+            </div>
+            <div class="cvReviews__item">
+              <p class="cvReviews__text">Lorem ipsum dolor sit amet elit. Velit beatae laudantium
+                voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+                Dolores molestias adipisci dolo amet!.
+              </p>
+              <div class="cvReviews__content">
+                <div class="cvReviews__icon">
+                  <img src="./assets/images/reviews4.jpg" alt="Review image 4" class="img-fluid">
+                </div>
+                <div class="cvReviews__info">
+                  <h3 class="cvReviews__name">Smith Johnson</h3>
+                  <p class="cvReviews__position">Student</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="cvBlog">
+      <div class="cvBlog__padding py-5">
+        <div class="cvBlog__container container py-lg-5 py-md-4 py-2">
+          <h5 class="small-title text-center mb-1">Latest News</h5>
+          <h3 class="big-title text-center mb-sm-5 mb-4">Our insight and articles</h3>
+          <div class="cvBlog__content row">
+            <div class="cvBlog__item item-1 col-lg-4 col-md-6">
+              <div class="card">
+                <div class="cvBlog__itemHeader card-header p-0 position-relative">
+                  <a href="#url" class="d-block">
+                    <img src="./assets/images/blog1.jpg" alt="Blog image 1" class="img-fluid">
+                  </a>
+                </div>
+                <div class="cvBlog__itemBody card-body">
+                  <a href="#url" class="small-title d-block">Startup Business</a>
+                  <a href="#url" class="big-title d-block">Hello world!</a>
+                </div>
+                <div class="cvBlog__itemFooter card-footer">
+                  <a href="#url" class="cvBlog__w3">
+                    <img src="./assets/images/w3Layout.jpeg" alt="W3 Layout image" class="img-fluid">
+                  </a>
+                  <span class="cvBlog__by">
+                    <span>by</span>  
+                    <a href="#url">W3Layouts</a>
+                  </span>
+                  <span class="cvBlog__date">April 1, 2021</span>
+                </div>
+              </div>
+            </div>
+            <div class="cvBlog__item item-2 col-lg-4 col-md-6">
+              <div class="card">
+                <div class="cvBlog__itemHeader card-header p-0 position-relative">
+                  <a href="#url" class="d-block">
+                    <img src="./assets/images/blog2.jpg" alt="Blog image 2" class="img-fluid">
+                  </a>
+                </div>
+                <div class="cvBlog__itemBody card-body">
+                  <a href="#url" class="small-title d-block">Startup Business</a>
+                  <a href="#url" class="big-title d-block">Companies in NY launched a joint project on a three-tower hall</a>
+                </div>
+                <div class="cvBlog__itemFooter card-footer">
+                  <a href="#url" class="cvBlog__w3">
+                    <img src="./assets/images/w3Layout.jpeg" alt="W3 Layout image" class="img-fluid">
+                  </a>
+                  <span class="cvBlog__by">
+                    <span>by</span>  
+                    <a href="#url">W3Layouts</a>
+                  </span>
+                  <span class="cvBlog__date">April 1, 2021</span>
+                </div>
+              </div>
+            </div>
+            <div class="cvBlog__item item-3 col-lg-4 col-md-6">
+              <div class="card">
+                <div class="cvBlog__itemHeader card-header p-0 position-relative">
+                  <a href="#url" class="d-block">
+                    <img src="./assets/images/blog3.jpg" alt="Blog image 3" class="img-fluid">
+                  </a>
+                </div>
+                <div class="cvBlog__itemBody card-body">
+                  <a href="#url" class="small-title d-block">Marketing Strategy</a>
+                  <a href="#url" class="big-title d-block">Design breakthrough upgrades the product and ready to launch</a>
+                </div>
+                <div class="cvBlog__itemFooter card-footer">
+                  <a href="#url" class="cvBlog__w3">
+                    <img src="./assets/images/w3Layout.jpeg" alt="W3 Layout image" class="img-fluid">
+                  </a>
+                  <span class="cvBlog__by">
+                    <span>by</span>  
+                    <a href="#url">W3Layouts</a>
+                  </span>
+                  <span class="cvBlog__date">April 1, 2021</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="cvSubscribe py-5">
+      <div class="cvSubscribe__container container py-md-5 py-sm-4 py-2">
+        <div class="cvSubscribe__content text-center">
+          <h3 class="big-title text-white">Let’s find out how to work together</h3>
+          <p class="mt-3 pr-lg-5">
+            Lorem ipsum dolor sit amet elit. Velit beatae rem ullam dolore nisi esse quasi, sit amet. Lorem ipsum dolor sit amet elit.
+          </p>
+          <div class="input-group mt-5">
+            <div class="input-group-prepend">
+              <span class="input-group-text">
+                <i class="fas fa-paper-plane"></i>
+              </span>
+            </div>
+            <input type="email" name="email" class="form-control" placeholder="Your Email Address" required="">
+            <div class="input-group-append">
+              <button class="btn btn-outline-secondary" type="button">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="cvFooter">
+      <div class="cvFooter__container container py-md-4">
+        <div class="cvFooter__contact cvContact py-5">
+          <div class="row">
+            <div class="cvContact__item col-lg-4 col-md-6">
+              <div class="cvContact__logo mb-4">
+                <a class="cvContact__logoWrap" href="./index.html">
+                  <i class="fa fa-align-right text-success"></i>Corp Vision
+                  <span>Vision to your Future</span>
+                </a>
+              </div>
+              <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at
+                tempufddfel. Lorem ipsum dolor sit amet Semper at elit team advisors.</p>
+              <div class="cvContact__icon mt-md-4 mt-3">
+                <a href="#url" class="facebook">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#url" class="twitter">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#url" class="instagram">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#url" class="linkedin">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </div>
+            </div>
+            <div class="cvContact__item col-lg-4 col-md-6 pr-lg-5 mt-md-0 mt-5">
+              <h6 class="cvFooter__title">Contact Info</h6>
+              <p class="mb-2">Address : Corp Vision, 343 marketing, #21 cravel 1st lane street, NY - 62617.</p>
+              <p class="mb-2">
+                Phone Number : <a href="tel:+1(21) 234 4567">+1(21) 234 4567</a>
+              </p>
+              <p class="mb-2">
+                Email : <a href="mailto:info@example.com">info@example.com</a>
+              </p>
+              <p class="mb-2">
+                Support : <a href="mailto:info@support.com">info@support.com</a>
+              </p>
+            </div>
+            <div class="cvContact__item col-lg-2 col-md-6 col-sm-5 col-6 mt-lg-0 mt-5">
+              <h6 class="cvFooter__title">Categories</h6>
+              <ul>
+                <li><a href="#url">Marketing Strategy</a></li>
+                <li><a href="#url">Startup Business</a></li>
+                <li><a href="#url">Web development</a></li>
+              </ul>
+            </div>
+            <div class="cvContact__item col-lg-2 col-md-6 col-sm-5 col-6 mt-lg-0 mt-5">
+              <h6 class="cvFooter__title">Meta</h6>
+              <ul>
+                <li><a href="#url">Log in</a></li>
+                <li><a href="#url">Entries feed</a></li>
+                <li><a href="#url">Comments feed</a></li>
+                <li><a href="#url">WordPress.org</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cvFooter__copyright cvCopyright text-center">
+        <div class="cvCopyright__container container">
+          <p class="m-0">
+            © 2021 Corp Vision All Rights Reserved | WordPress Theme by <a href="#url">W3Layouts.</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- JQUERY -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- BS4 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <!-- SLICK SLIDER -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+      $('.cvCarousel__inner').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        cssEase: 'linear'
+      });
+    </script>
+    <!-- LIGHTBOX2 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js" integrity="sha512-k2GFCTbp9rQU412BStrcD/rlwv1PYec9SNrkbQlo6RZCf75l6KcC3UwDY8H5n5hl4v77IDtIPwOk9Dqjs/mMBQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- OWL CAROUSEL -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+      $(document).ready(function () {
+        $("#cvReviews__carousel").owlCarousel({
+          loop: true,
+          margin: 20,
+          nav: false,
+          responsiveClass: true,
+          responsive: {
+            0: {
+              items: 1,
+              nav: false
+            },
+            768: {
+              items: 1,
+              nav: false
+            },
+            1000: {
+              items: 1,
+              nav: false,
+              loop: false
+            }
+          }
+        })
+      })
+    </script>
+    <!-- MAIN JS -->
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
