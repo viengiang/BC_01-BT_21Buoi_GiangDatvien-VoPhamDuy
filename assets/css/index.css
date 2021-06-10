@@ -297,10 +297,11 @@ header.active .cvHeader__content .navbar .cvBtnGroup{
   right: 6px;
   opacity: 0;
   transition: all .3s;
+  color: white;
 }
 
 body.search-active .cvSearch{
-  transform: scale(70);
+  transform: scale(100);
 }
 
 body.search-active .navbar .cvSearch i{
